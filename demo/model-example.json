@@ -1,0 +1,15 @@
+{
+  "model": "gemma-4-e4b-it",
+  "text": "Row 5 · What specific errors were observed for faster-export?",
+  "row": 5,
+  "record": {
+    "Flag": "faster-export",
+    "Decision": "Hold: observed errors",
+    "Observed days": 3,
+    "Rollout levels (%)": "100",
+    "Lowest daily evaluations": 90,
+    "Errors in window": 1
+  },
+  "source_sha256": "a7b8274506509cb7136ae0dbf23dd25bb43d8cc9358feeb831f1128fce47fb48",
+  "report_sha256": "332748df419c87e7a7f8b86e5fb27a5a05d69b443e5a8f3d6c52d34c0ab32df4"
+}

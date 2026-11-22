@@ -2,6 +2,8 @@
 
 Identify feature flags that held one terminal rollout state throughout a measured traffic window.
 
+**[Open the live demo](https://oguzhanozfe.github.io/flag-retirement-board/)** · [Browser features and setup](demo/DEMO.md)
+
 ![Flag Retirement Board showing the included example in the browser](docs/preview.png)
 
 [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/flag-retirement-board) · [Example input](example.json) · [Computed report](docs/example-report.json) · [Model settings](#connect-a-model)
