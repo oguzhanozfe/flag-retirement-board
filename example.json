@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-04-03",
+  "window_days": 3,
+  "min_daily_evaluations": 25,
+  "flags": {
+    "compact-checkout": [
+      {
+        "date": "2026-04-01",
+        "rollout_pct": 100,
+        "evaluations": 480,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-02",
+        "rollout_pct": 100,
+        "evaluations": 512,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-03",
+        "rollout_pct": 100,
+        "evaluations": 493,
+        "errors": 0
+      }
+    ],
+    "legacy-menu": [
+      {
+        "date": "2026-04-01",
+        "rollout_pct": 0,
+        "evaluations": 420,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-02",
+        "rollout_pct": 0,
+        "evaluations": 396,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-03",
+        "rollout_pct": 0,
+        "evaluations": 415,
+        "errors": 0
+      }
+    ],
+    "new-search": [
+      {
+        "date": "2026-04-01",
+        "rollout_pct": 25,
+        "evaluations": 95,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-02",
+        "rollout_pct": 50,
+        "evaluations": 109,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-03",
+        "rollout_pct": 100,
+        "evaluations": 122,
+        "errors": 0
+      }
+    ],
+    "desktop-print": [
+      {
+        "date": "2026-04-01",
+        "rollout_pct": 100,
+        "evaluations": 12,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-02",
+        "rollout_pct": 100,
+        "evaluations": 17,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-03",
+        "rollout_pct": 100,
+        "evaluations": 8,
+        "errors": 0
+      }
+    ],
+    "faster-export": [
+      {
+        "date": "2026-04-01",
+        "rollout_pct": 100,
+        "evaluations": 90,
+        "errors": 0
+      },
+      {
+        "date": "2026-04-02",
+        "rollout_pct": 100,
+        "evaluations": 93,
+        "errors": 1
+      },
+      {
+        "date": "2026-04-03",
+        "rollout_pct": 100,
+        "evaluations": 110,
+        "errors": 0
+      }
+    ]
+  }
+}

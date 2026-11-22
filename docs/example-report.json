@@ -1,0 +1,50 @@
+{
+  "summary": "2 of 5 flags meet the evidence threshold for owner review.",
+  "metrics": {
+    "Flags": 5,
+    "Review candidates": 2,
+    "Window days": 3
+  },
+  "rows": [
+    {
+      "Flag": "compact-checkout",
+      "Decision": "Review enabled branch",
+      "Observed days": 3,
+      "Rollout levels (%)": "100",
+      "Lowest daily evaluations": 480,
+      "Errors in window": 0
+    },
+    {
+      "Flag": "legacy-menu",
+      "Decision": "Review disabled branch",
+      "Observed days": 3,
+      "Rollout levels (%)": "0",
+      "Lowest daily evaluations": 396,
+      "Errors in window": 0
+    },
+    {
+      "Flag": "new-search",
+      "Decision": "Hold: changing or partial rollout",
+      "Observed days": 3,
+      "Rollout levels (%)": "25, 50, 100",
+      "Lowest daily evaluations": 95,
+      "Errors in window": 0
+    },
+    {
+      "Flag": "desktop-print",
+      "Decision": "Hold: insufficient traffic",
+      "Observed days": 3,
+      "Rollout levels (%)": "100",
+      "Lowest daily evaluations": 8,
+      "Errors in window": 0
+    },
+    {
+      "Flag": "faster-export",
+      "Decision": "Hold: observed errors",
+      "Observed days": 3,
+      "Rollout levels (%)": "100",
+      "Lowest daily evaluations": 90,
+      "Errors in window": 1
+    }
+  ]
+}
